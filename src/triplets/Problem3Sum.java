@@ -22,7 +22,7 @@ public class Problem3Sum {
 		}
 		Collections.sort(list);
 		
-		System.out.println("Input Array : " + list);
+		System.out.println("Input array : " + list);
 		
 		Integer[] arr = list.toArray(new Integer[list.size()]);
 		int count =0;
